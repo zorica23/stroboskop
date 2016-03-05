@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+glava {
+    margin: 20px;
+}
+
+telo {
+    flex: auto;
+   	margin: 10px;
+	width: calc(100% - 50px);
+	overflow: auto;
+	padding: 10px;
+}
+
+.stroboskop {
+	margin: 0px; 
+	margin-bottom: 5px;
+	position: relative; 
+	height: 20px; 
+	width: calc(100% - 20px); 
+	float: left; 
+	padding: 10px;
+}
+
+#barve > button {
+	border: 0px;
+	margin: 5px;
+}
+
+#start {
+    float: right;
+    width: 200px;
+    background: white;
+    height: 50px;
+    font-size: 18px;
+}
+
+#novaBarva, #odstraniBarve {
+	background: white;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>..:: Stroboskop ::..</title>
+    <meta charset="UTF-8">
+    
+    <script src="skripta.js"></script>
+</head>
+<body>
+
+
+<!-- GLAVA -->
+<glava>
+	<table style="width: 100%;">
+		<tr>
+			<td style="width: 200px;">
+				Izberi barve:
+			</td>
+			<td style="width: calc(100% - 20px);">
+				<span id="barve"></span> 
+				<input id="novaBarva" type="button" value="Dodaj barvo" />
+			</td>
+			<td rowspan="2" style="width: 300px;">
+				<button id="start">Zaženi stroboskop</button>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Časovni interval: 
+			</td>
+			<td>
+				od najmanj <input id="min" value="50" /> ms do največ
+				<input id="max" value="500" /> ms
+			</td>
+
+		</tr>
+	</table>
+</glava>
+
+<!-- TELO -->
+<telo id="stroboskop"></telo>
+
+</body>
+</html>
